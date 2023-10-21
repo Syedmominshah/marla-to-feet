@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="./index.html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title></title>
+    <script type="text/javascript">
+        function convert(){
+            var marla = document.getElementById('data').value;
+            var feet = (marla * 272.25 );
+            document.getElementById('res').innerText = `${marla} MARLA = ${feet} feet`;
+        }
+    </script>
+    <style type="text/css"></style>
+    <link rel="stylesheet" href="pp.css">
+</head>
+<body class="good">
+    <center><h1>MARLA TO SQUARE FEET</h1>
+    <input type="" name="" id="data" /> marla
+    <br>
+    <br>
+    <button onclick="convert ()">convert</button>
+    <h1 id="res"></h1></center>
+</body>
+</html>
